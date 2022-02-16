@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: #FF2B85;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #5EFFB7;
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background-color: #F7B602;
+    border-radius: 5px;
+    color: black;
+}
+
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.center h1{
+    color:#5EFFB7;
+    font-size: 63px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.center h2{
+    color: white;
+    font-size: 46px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.center .buttons{
+    margin: 35px 280px;
+}
+
+.buttons button{
+    height: 50px;
+    width: 160px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #0c472d;
+    background-color: #5EFFB7;
+    border: solid #5EFFB7;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px;
+    transition: .5s;
+}
+.buttons button a{
+    font-weight: bold;
+    color: #0c472d;
+    text-decoration: none;
+}
+
+.buttons button:hover{
+    background: white;
+}
+
+#liste{
+    color: #FF2B85;
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    width: 180px;
+    background-color: #f1f1f1;
+    border-bottom-right-radius: 5px;
+}
+    
+.secenek{
+    display: block;
+    color: #000;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.secenek:hover{
+    background-color: #555;
+    color: white;
+    border-radius: 5px;
+}
+#hesapKaldir:hover{
+background-color: crimson;
+border-radius: 5px;
+}
+
+#hesapKaldir{
+    background-color:red;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+#islem{
+    width: 20%;
+    height: 30%;
+    background-color: #555;
+    position: relative;
+    left: 40%;
+    top: -10%;
+    border-radius: 5px;
+}
+
+#alan{
+    width: 30%;
+    position: relative;
+    left: 25%;
+    top: 12%;
+    font-size: large;
+    color: #f1f1f1;
+}
+
+#onayla{
+font-size: larger;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+position: relative;
+left: 1%;
+top: 10px;
+border-radius: 7px;
+padding: 5px;
+background-color: #5EFFB7;
+color:#555;
+}
+
+#yazi{
+    position: absolute;
+    left: 39%;
+    top: 22%;
+    font-size: xx-large;
+    color:antiquewhite;
+}
+
+p{
+    color: #f1f1f1;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+#onayla:hover{
+    background-color: red;
+    color: azure;
+}
+
+strong{
+    position: relative;
+    left: 42%;
+    top: -20%;
+    font-size: xx-large;
+    color:antiquewhite;
+}
+
+#hataMesaj{
+    position: absolute;
+    top:70%;
+    left:42.5%;
+    color: aquamarine;
+}

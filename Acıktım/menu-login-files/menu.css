@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#FF2B85;
+    overflow-y:hidden;
+}
+
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background:#5EFFB7;
+}
+
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background-color: #F7B602;
+    border-radius: 5px;
+}
+
+.submit{
+    position: relative;
+    background-color: #F7B602;
+    top:-5%;
+}
+
+.container .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+#menu{
+    position: absolute;
+    left:290px;
+    width: 1300px;
+    max-width: 1300px;
+    height: 1000px;
+    max-height: 900px;
+    background-color:antiquewhite;
+    padding: 30px;
+    top:80px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    border-radius: 1%;
+}
+
+.resim{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 17%;
+}
+
+
+.icerik{
+    position: relative;
+    display: inline-block;
+    width: 700px;
+    top:-150px;
+    Left:180px;
+    color: green;
+    font-size:larger;
+}
+
+.baslik{
+    position:relative;
+    top: -160px;
+    left: 190px;
+    color: brown;
+    font-size: 30px;
+}
+
+#fee{
+    position: absolute;
+    top:410px;
+    left:40px;
+    font-size:20px;
+    color:#5EFFB7;
+}
+
+#btnODEME{
+    position: absolute;
+    top:440px;
+    left:3%;
+    width: 5%;
+    height: 3%;
+    background-color:#5EFFB7;
+    border-radius: 15px;
+    color:black;
+    font-size:large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#SEPET{
+    width: 240px;
+    height: 300px;
+    background-color: antiquewhite;
+    display: inline-block;
+    overflow-y:auto;
+    border-radius: 5%;
+    position: absolute;
+    top:110px;
+    text-align: center;
+}
+
+#txtSepet{
+    color: aliceblue;
+    position: absolute;
+    top:90px;
+    left:70px;
+}
+
+#txtSepetDIV{
+    width: 240px;
+    height: 50px;
+    background-color: palevioletred;
+}
+
+.txtSepeteEkle{
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font: bold;
+    text-align: center;
+    color: aliceblue;
+}
+
+.sepeteEkle{
+    position: relative;
+    left: 1070px;
+    top:-200px;
+    width: 70px;
+    background-color: blueviolet;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.removeFromBasket{
+    position:relative;
+    left: 980px;
+    top:-308px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 50%;
+}
+
+.miktar{
+    position: relative;
+    left: 950px;
+    top:-260px;
+    width: 60px;
+    height:40px;
+    border-radius: 15%;
+    color: aliceblue;
+    background-color: darkmagenta;
+}
+
+.Fiyat{
+    position: relative;
+    top:-170px;
+    Left:1200px;
+    color: indigo;
+}
+
+.headerFiyat{
+    position: relative;
+    top:-320px;
+    left:1195px;
+    color: black;
+}
+
+.oge{
+    position: relative;
+    max-width: 1300px;
+    height: 200px;
+    width: 1300px;
+}

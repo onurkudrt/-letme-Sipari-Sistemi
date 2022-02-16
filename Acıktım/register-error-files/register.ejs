@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/anamenu-files/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kayıt</title>
+    <link rel="stylesheet" href="../register-files/register.css">
+</head>
+
+<body>
+
+    <form action="/register" method="post">
+        <h2>Kayıt</h2>
+        <input type="text" onkeypress="return boslukEngelle()" id="registerUsername" name="registerUsername"
+            placeholder="Kullanıcı Adı" required>
+        <input type="password" required id='registerPassword' name="registerPassword" placeholder="Parola" required>
+        <h5 style="color: aliceblue;">Bu isimde bir kullanıcı zaten bulunmakta.</h5>
+        <input type="submit" value="Kayıt Ol!">
+    </form>
+    <script src="./register-files/register.js"></script>
+
+    <p id="buyukYazi"><strong>Acıktım'a üye ol aramıza katıl !</strong></p>
+
+    <script src="./register-error-files/register.js"></script>
+</body>
+
+</html>

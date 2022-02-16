@@ -1,0 +1,145 @@
+body{
+    background-color:#FF2B85;
+}
+#siparis{
+    background-color:white;
+    height: 800px;
+    width:500px;
+    border-radius: 7%;
+    position: relative;
+    top:20px;
+    left:700px;
+}
+
+#ad{
+    position: absolute;
+    top:20px;
+    left:40px;
+}
+#adTxt{
+    position: absolute;
+    top:20px;
+    left:240px;
+}
+#soyad{
+    position: absolute;
+    top:50px;
+    left:40px;
+}
+#soyadTxt{
+    position: absolute;
+    top:50px;
+    left:240px;
+}
+#telNo{
+    position: absolute;
+    top:80px;
+    left:40px;
+}
+#telNoTxt{
+    position: absolute;
+    top:80px;
+    left:240px;
+}
+#ePosta{
+    position: absolute;
+    top:110px;
+    left:40px;
+}
+#txtPosta{
+    position:absolute;
+    top: 110px;
+    left:240px;
+}
+#adres{
+    position: absolute;
+    top:140px;
+    left:40px;
+}
+#adresTxt{
+    position: absolute;
+    top:140px;
+    left:240px;
+    width:171px;
+    height:80px;
+}
+#kAdSoyad{
+    position: absolute;
+    top:240px;
+    left:40px;
+}
+#kAdSoyadtxt{
+    position: absolute;
+    top:240px;
+    left:240px;
+}
+#kartNo{
+    position: absolute;
+    top:270px;
+    left:40px;
+}
+#kartNoTxt{
+    position: absolute;
+    top:270px;
+    left:240px;
+}
+#kartSonKulTrh{
+    position: absolute;
+    top:300px;
+    left:40px;
+}
+#kartSonKulTrhTxt{
+    position: absolute;
+    top:300px;
+    left:240px;
+    width: 171px;
+}
+#cvv{
+    position: absolute;
+    top:330px;
+    left:40px;
+}
+#cvvTxt{
+    position: absolute;
+    top:330px;
+    left:240px;
+}
+
+
+#ode{
+    background-color: brown;
+    color: white;
+    position: absolute;
+    top: 440px;
+    left: 130px;
+    width: 100px;
+    height: 50px;
+    border-radius: 46%;
+    font-size:16px;
+}
+#Tutar{
+    position: absolute;
+    top:380px;
+    left:80px;
+    font-size: xx-large;
+    color: blueviolet;
+}
+
+#vazgec{
+    background-color: blanchedalmond;
+    color: black;
+    position: absolute;
+    top: 440px;
+    left: 280px;
+    width: 100px;
+    height: 50px;
+    border-radius: 46%;
+    font-size:16px;
+}
+
+#indirim{
+    position: absolute;
+    top:540px;
+    left: 30px;
+    color: black;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/anamenu-files/favicon.ico">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./hakkimizda-login-files/hakkimizda.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">ACIKTIM</a>
+            </div>
+            <ul>
+                <li><a href="/user">Ana Sayfa</a></li>
+                <li><a href="/user/menu">Menüler</a></li>
+                <li><a href="/user/hakkimizda" class="active">Hakkımızda</a></li>
+                <li><a href="/user/hesabim">Hesabım</a></li>
+            </ul>
+        </div>
+    </div>
+    <img src="https://media.istockphoto.com/photos/collage-of-lots-of-food-picture-id1018055792" id="image">
+
+    <div id="yazi">
+        Acıktım, kalite ve müşteri memnuniyetini esas edinin üstün hizmet anlayışı ile, 2020 yılından bu yana yemek
+        sektöründe Tüm Anadolu Bölgesi’nin temel taşlarından biri olarak hizmet vermektedir.
+        <p>Acıktım olarak hedefimiz firmamızın, müşterileri “Çok kaliteli hizmet verebilen, istikrarlı güvenilir ve
+            dürüst” kurumsal bir şirket olarak tanınmasıdır. Bu hedefi başardığımıza inanıyoruz, kuruluşumuzdan bugüne
+            kadar kaliteyi hedefleyen firmalarla çalışmalarımız oldu. Bununla birlikte standartları korumanın, onlara
+            ulaşmak kadar zor olduğunun bilincindeyiz.</p>
+    </div>
+    <div id="vizyon">
+        <p><strong>Vizyonumuz</strong></p>
+        <p>Sunduğumuz &uuml;r&uuml;n ve hizmetler ile y&ouml;netim tarzında daima yenilik&ccedil;i olarak yemek hizmeti
+            sekt&ouml;r&uuml;nde bir T&uuml;rkiye şirketi haline gelmek.</p>
+    </div>
+    <form method="get" action="mailto:onursalih@gmail.com">
+        <fieldset>
+            <legend>İletişim</legend>
+            <table>
+                <tr>
+                    <td>Konu :</td>
+                    <td><input type="text" name="subject" required /></td>
+                </tr>
+                <tr>
+                    <td>Ad-Soyad :</td>
+                    <td><input type="text" name="adsoyad" required /></td>
+                </tr>
+                <tr>
+                    <td>E-Posta :</td>
+                    <td><input type="email" name="eposta" /></td>
+                </tr>
+                <tr>
+                    <td>Açıklama :</td>
+                    <td><textarea name="aciklama"></textarea></td>
+                </tr>
+                <input type="submit" id="mail" value="Gönder" />
+            </table>
+        </fieldset>
+
+    </form>

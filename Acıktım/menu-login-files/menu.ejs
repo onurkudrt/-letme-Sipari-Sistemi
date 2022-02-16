@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/anamenu-files/favicon.ico">
+    <meta charset="UTF-8">
+    <title>Menü</title>
+    <link rel="stylesheet" href="./menu-login-files/menu.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">ACIKTIM</a>
+            </div>
+            <ul>
+                <li><a href="/user">Ana Sayfa</a></li>
+                <li><a href="/user/menu" class="active">Menüler</a></li>
+                <li><a href="/user/hakkimizda">Hakkımızda</a></li>
+                <li><a href="/user/hesabim">Hesabım</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div>
+        <form id="form" action="/user/odeme" method="post">
+            <div id="txtSepetDIV"><span id="txtSepet">SEPET İÇERİĞİ</span></div>
+            <div id="SEPET" name="sepet"></div>
+            <span id="fee" name="fee">Sepet Değeri: 0₺</span>
+            <input type="text" hidden id="informationSepet" name="informationSepet">
+            <input type="text" hidden id="informationFee" name="informationFee">
+            <input type="submit" onclick="" id="btnODEME" value="Ödeme">
+        </form>
+    </div>
+    <div id="menu">
+        <div class="oge">
+            <img src="https://www.taurusavm.com.tr//assets/photos/uploads/files/galeri/Ad%C4%B1yaman%20%C3%87i%C4%9Fk%C3%B6ftecisi/2.jpg"
+                class="resim" />
+            <h2 class="baslik">Adıyaman Çiğ Köfte</h2>
+            <span class="icerik">150gr Çiğköfte, Narekşisi Sosu, Acı Sosu, Top Marul, Salatalık Turşusu, Domates, Süs
+                Biberi, 150ml Ayran </span>
+            <h1 class="Fiyat">19.95</h1>
+            <button class="sepeteEkle" onclick="sepeteEkle(0,yazdir)"> <span class="txtSepeteEkle"> SEPETE EKLE
+                </span></button>
+            <input type="number" class="miktar" min="0" value="0" />
+            <h1 class="headerFiyat">FİYAT</h1>
+            <button class="removeFromBasket" onclick="removeFromBasket(0,cikar)">Sepetten Kaldır</button>
+        </div>
+
+        <div class="oge">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTooWvAZzUdU58QlmfbCu8HmcXyxOcPyYwprw&usqp=CAU"
+                class="resim" />
+            <h2 class="baslik">Gurme Pizza Menü</h2>
+            <span class="icerik">2 adet orta boy pizza, orta boy patates, soğuk içecek</span>
+            <h1 class="Fiyat">79.95</h1>
+            <button class="sepeteEkle" onclick="sepeteEkle(1,yazdir)"> <span class="txtSepeteEkle"> SEPETE EKLE
+                </span></button>
+            <input type="number" class="miktar" min="0" value="0" />
+            <h1 class="headerFiyat">FİYAT</h1>
+            <button class="removeFromBasket" onclick="removeFromBasket(1,cikar)">Sepetten Kaldır</button>
+        </div>
+
+        <div class="oge">
+            <img src="https://i.ytimg.com/vi/I0HwW_A7cuM/sddefault.jpg" class="resim" />
+            <h2 class="baslik">Hatay Usulü Tavuk Döner</h2>
+            <span class="icerik">Çifte döner ekmeği içerisinde Hatay usulü tavuk döner, orta boy patates, soğuk içecek.
+            </span>
+            <h1 class="Fiyat">29.95</h1>
+            <button class="sepeteEkle" onclick="sepeteEkle(2,yazdir)"> <span class="txtSepeteEkle"> SEPETE EKLE
+                </span></button>
+            <input type="number" class="miktar" min="0" value="0" />
+            <h1 class="headerFiyat">FİYAT</h1>
+            <button class="removeFromBasket" onclick="removeFromBasket(2,cikar)">Sepetten Kaldır</button>
+        </div>
+
+        <div class="oge">
+            <img src="https://cdn.website.dish.co/media/0f/b6/2837233/Elit-Burger-2256.jpg" class="resim" />
+            <h2 class="baslik">Elit Burger Fırsat Menu</h2>
+            <span class="icerik">2 adet Elit Burger, 8 soğan halkası, orta boy kızarmış patates, 1 kutu soğuk
+                içecek</span>
+            <h1 class="Fiyat">34.95</h1>
+            <button class="sepeteEkle" onclick="sepeteEkle(3,yazdir)"> <span class="txtSepeteEkle"> SEPETE EKLE
+                </span></button>
+            <input type="number" class="miktar" min="0" value="0" />
+            <h1 class="headerFiyat">FİYAT</h1>
+            <button class="removeFromBasket" onclick="removeFromBasket(3,cikar)">Sepetten Kaldır</button>
+        </div>
+
+        <div class="oge">
+            <img src="https://i4.hurimg.com/i/hurriyet/75/750x422/5f60babb7152d8193c89bf7b.jpg" class="resim" />
+            <h2 class="baslik">İzmir Kumru Menü</h2>
+            <span class="icerik">İzmir kumru, içecek olarak ayran hediyeli</span>
+            <h1 class="Fiyat">13.95</h1>
+            <button class="sepeteEkle" onclick="sepeteEkle(4,yazdir)"> <span class="txtSepeteEkle"> SEPETE EKLE
+                </span></button>
+            <input type="number" class="miktar" min="0" value="0" />
+            <h1 class="headerFiyat">FİYAT</h1>
+            <button class="removeFromBasket" onclick="removeFromBasket(4,cikar)">Sepetten Kaldır</button>
+        </div>
+
+        <div class="oge">
+            <img src="https://cdn.getiryemek.com/products/1617096286447_500x375.jpeg" class="resim" />
+            <h2 class="baslik">Atom Tost</h2>
+            <span class="icerik">Bol malzemeli atom tost, küçük boy patates ve soğuk içecek hediyeli</span>
+            <h1 class="Fiyat">24.95</h1>
+            <button class="sepeteEkle" onclick="sepeteEkle(5,yazdir)"> <span class="txtSepeteEkle"> SEPETE EKLE
+                </span></button>
+            <input type="number" class="miktar" min="0" value="0" />
+            <h1 class="headerFiyat">FİYAT</h1>
+            <button class="removeFromBasket" onclick="removeFromBasket(5,cikar)">Sepetten Kaldır</button>
+        </div>
+
+        <div class="oge">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx23bhvscYSu1GIqeycNSlYRKeVJU3x0uAYQ&usqp=CAU"
+                class="resim" />
+            <h2 class="baslik">Köri Soslu Tavuk Menu</h2>
+            <span class="icerik">Köri soslu tavuk, küçük boy patates, pilav, turşu, marul, soğuk içecek</span>
+            <h1 class="Fiyat">39.95</h1>
+            <button class="sepeteEkle" onclick="sepeteEkle(6,yazdir)"> <span class="txtSepeteEkle"> SEPETE EKLE
+                </span></button>
+            <input type="number" class="miktar" min="0" value="0" />
+            <h1 class="headerFiyat">FİYAT</h1>
+            <button class="removeFromBasket" onclick="removeFromBasket(6,cikar)">Sepetten Kaldır</button>
+        </div>
+
+        <div class="oge">
+            <img src="https://fastly.4sqi.net/img/general/600x600/380467758_6anBNqc5IjXsUW4GnT98U-wM0FEXjBFtIx1DnMl1o18.png"
+                class="resim" />
+            <h2 class="baslik">Antakya Köfte</h2>
+            <span class="icerik">1 kişilik Antakya Köfte, soğuk içecek</span>
+            <h1 class="Fiyat">17.95</h1>
+            <button class="sepeteEkle" onclick="sepeteEkle(7,yazdir)"> <span class="txtSepeteEkle"> SEPETE EKLE
+                </span></button>
+            <input type="number" class="miktar" min="0" value="0" />
+            <h1 class="headerFiyat">FİYAT</h1>
+            <button class="removeFromBasket" onclick="removeFromBasket(7,cikar)">Sepetten Kaldır</button>
+        </div>
+    </div>
+    <script src="./menu-login-files/menu.js"></script>
+</body>
+
+</html>

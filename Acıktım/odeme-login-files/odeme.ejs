@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" type="image/x-icon" href="/anamenu-files/favicon.ico">
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/anamenu-files/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./odeme-login-files/odeme.css" />
+    <title>Ödeme ve Teslimat</title>
+</head>
+
+<body>
+    <div id="siparis">
+        <form action="/user/odeme/islem" method="post">
+            <span id="ad">Ad:</span> <input type="text" name="adTxt" id="adTxt" required> <br /></br>
+            <span id="soyad">Soyad:</span> <input type="text" name="soyadTxt" id="soyadTxt" required><br /></br>
+            <span id="telNo">Telefon Numarası</span> <input type="text" name="telNoTxt"
+                onkeypress="return sayiKontrol()" id="telNoTxt" required><br />
+            <span id="ePosta">E-Posta</span> <input type="email" name="txtPosta" onkeypress="return boslukEngelle()"
+                id="txtPosta" required>
+            <span id="adres">Adres Bilgisi</span><br /> <textarea name="adresTxt" id="adresTxt"
+                required></textarea><br />
+            <span id="kAdSoyad">Kart Sahibinin Adı-Soyadı</span> <input name="kAdSoyadtxt" id="kAdSoyadtxt" type="text"
+                required>
+            <span id="kartNo">Kart Numarası</span><input type="text" name="kartNoTxt" onkeypress="return sayiKontrol()"
+                id="kartNoTxt" required>
+            <span id="kartSonKulTrh">Son Kullanma Tarihi AA/YY </span> <input type="month" name="kartSonKulTrhTxt"
+                id="kartSonKulTrhTxt" required>
+            <span id="cvv">CVV</span> <input maxlength="3" type="text" onkeypress="return sayiKontrol()" name="cvvTxt"
+                id="cvvTxt" required>
+            <h1 id="indirim">Üyelerimize özel %5 indirimden faydalanıyorsunuz. </h1>
+            <input type="submit" value="Ödeme Yap" id="ode">
+        </form>
+        <form action="/user/menu" method="get">
+            <input type="submit" id="vazgec" value="VAZGEÇ">
+        </form>
+    </div>
+    <script src="./odeme-login-files/odeme.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,3 @@
+function error() {
+    document.getElementById
+}

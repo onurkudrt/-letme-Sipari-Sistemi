@@ -1,0 +1,152 @@
+body{
+    background-color:#FF2B85;
+    color:bisque;
+    font-size:x-large;
+}
+
+#yazi{
+width: 900px;
+height: 300px;
+position: absolute;
+top:600px;
+left:500px;
+}
+#image{
+width: 900px;
+height: 450px;
+position: absolute;
+top:100px;
+left:500px;
+}
+*{
+margin: 0;
+padding: 0;
+}
+
+.container{
+background-color: #FF2B85;
+height: 100vh;
+background-size: 100% 100%;
+}
+.container .navbar{
+width: 100%;
+height: 80px;
+background-color: #5EFFB7;
+}
+
+.navbar .logo{
+display: inline-block;
+margin-left: 50px;
+margin-top: 20px;
+
+}
+
+.navbar .logo a{
+text-decoration: none;
+font-size: 30px;
+font-family: sans-serif;
+color: black;
+}
+
+.navbar ul{
+float: right;
+margin-right: 20px;
+}
+
+.navbar ul li{
+list-style: none;
+display: inline-block;
+margin: 8px;
+line-height: 80px;
+}
+
+.navbar ul li a{
+color: black;
+text-decoration: none;
+font-size: 20px;
+padding: 6px 13px;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+background-color: #F7B602;
+border-radius: 5px;
+color: black;
+}
+
+.container .center{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+font-family: sans-serif;
+user-select: none;
+}
+
+.center h1{
+color:#5EFFB7;
+font-size: 63px;
+font-weight: bold;
+width: 900px;
+text-align: center;
+}
+
+.center h2{
+color: white;
+font-size: 46px;
+font-weight: bold;
+width: 885px;
+margin-top: 10px;
+position: relative;
+text-align: center;
+}
+
+.center .buttons{
+margin: 35px 280px;
+}
+
+.buttons button{
+height: 50px;
+width: 160px;
+font-size: 18px;
+font-weight: bold;
+color: #0c472d;
+background-color: #5EFFB7;
+border: solid #5EFFB7;
+cursor: pointer;
+outline: none;
+border-radius: 25px;
+transition: .5s;
+}
+.buttons button a{
+font-weight: bold;
+color: #0c472d;
+text-decoration: none;
+}
+
+.buttons button:hover{
+background: white;
+}
+
+
+#vizyon{
+width: 900px;
+position: absolute;
+left: 500px;
+top: 850px;
+}
+#mail{
+position: absolute;
+top: 1130px;
+left: 900px;
+font-size: large;
+border-radius: 10px;
+}
+
+table{
+    position: relative;
+    left: 800px;
+}
+fieldset{
+height: 200px;
+}
